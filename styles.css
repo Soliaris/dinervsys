@@ -1,6 +1,6 @@
 
 body {
-            background-color: #333;
+            background-color: #244da7;
             color: #03fdf9;
             font-family: Arial, sans-serif;
             text-align: center;
@@ -14,7 +14,7 @@ body {
             min-height:100vh;
         background: #000;
         padding: 20px;
-        border: 3px solid #244da7;
+        border: 3px solid #03fdf9;
         border-top:none;
         border-bottom:none;
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
