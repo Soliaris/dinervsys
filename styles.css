@@ -59,6 +59,7 @@ border-radius: 5px;
 }
 .links {
 margin-top: 20px;
+display:inline-block;
 }
 .button {
 display: inline-block;
