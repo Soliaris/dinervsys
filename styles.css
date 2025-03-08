@@ -38,6 +38,8 @@ body {
             height: auto;
                     border-radius:10px;
                     border: 2px solid #03fdf9;
+                    display:flex;
+                    float:left;
         }
         .content {
             display: flex;
