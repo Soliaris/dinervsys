@@ -7,12 +7,22 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-color: #000;
+            background-color: #333;
             color: #03fdf9;
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 66%;
+            background: #000;
+            padding: 20px;
+            border: 3px solid #244da7;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
         }
         header {
             display: flex;
@@ -25,7 +35,8 @@
         }
         .hero {
             width: 100%;
-            max-height: 400px;
+            max-width: 400px;
+            margin: 0 auto;
         }
         .hero-image {
             width: 100%;
@@ -67,27 +78,29 @@
     </style>
 </head>
 <body>
-    <header>
-        <img src="Dinervsys_Logo.png" alt="Puzzling Islands Logo" class="logo">
-    </header>
-    <main>
-        <section class="hero">
-            <img src="placeholder_header.jpg" alt="Header Image" class="hero-image">
-        </section>
-        <section class="content">
-            <div class="content-block">
-                <img src="placeholder1.jpg" alt="Content Image 1">
-                <p>Some information about the game...</p>
-            </div>
-            <div class="content-block">
-                <img src="placeholder2.jpg" alt="Content Image 2">
-                <p>More details on features...</p>
-            </div>
-        </section>
-        <section class="links">
-            <a href="https://play.google.com/store" class="button">Download on Google Play</a>
-            <a href="account-deletion.html" class="button delete">Account Deletion</a>
-        </section>
-    </main>
+    <div class="container">
+        <header>
+            <img src="Dinervsys_Logo.png" alt="Puzzling Islands Logo" class="logo">
+        </header>
+        <main>
+            <section class="hero">
+                <img src="placeholder_square.jpg" alt="Big Square Image" class="hero-image">
+            </section>
+            <section class="content">
+                <div class="content-block">
+                    <img src="placeholder1.jpg" alt="Content Image 1">
+                    <p>Some information about the game...</p>
+                </div>
+                <div class="content-block">
+                    <img src="placeholder2.jpg" alt="Content Image 2">
+                    <p>More details on features...</p>
+                </div>
+            </section>
+            <section class="links">
+                <a href="https://play.google.com/store" class="button">Download on Google Play</a>
+                <a href="account-deletion.html" class="button delete">Account Deletion</a>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
