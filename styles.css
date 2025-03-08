@@ -34,6 +34,7 @@ margin: 0 auto;
 }
 .hero-image {
 width: 100%;
+max-width:50%;
 height: auto;
 border-radius:10px;
 border: 2px solid #03fdf9;
